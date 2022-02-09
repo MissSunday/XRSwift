@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         someView = UIView.init(frame: CGRect(x: 100,y: 100,width: 100,height: 100))
         someView.backgroundColor = .red
         self.view.addSubview(someView)
+        self.view.backgroundColor = .white
         
         
     }
